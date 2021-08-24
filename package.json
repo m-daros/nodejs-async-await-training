@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-async-await-training",
+  "version": "1.0.0",
+  "description": "Experiments with async functions and await",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-daros/nodejs-async-await-training.git"
+  },
+  "keywords": [
+    "nodejs",
+    "async",
+    "await"
+  ],
+  "author": "m-daros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-daros/nodejs-async-await-training/issues"
+  },
+  "homepage": "https://github.com/m-daros/nodejs-async-await-training#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": 1000
+  }
+}
